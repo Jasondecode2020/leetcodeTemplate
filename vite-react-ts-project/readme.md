@@ -10,6 +10,15 @@ run dev project
 
 install tailwind in react
 
-### 3 `npx tailwindcss init -p`
+### 4 `npx tailwindcss init -p`
 
 init tailwind
+
+
+### 5 `npm i json-server`
+
+Install json server
+
+### 6 `npm run server`
+
+Run json server

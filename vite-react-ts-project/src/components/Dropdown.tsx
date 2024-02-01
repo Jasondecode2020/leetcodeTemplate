@@ -7,7 +7,7 @@ function classNames(...classes) {
 }
 
 const renderListOfUserNames = (names: []) => {
-  return names.map((name: string) => <Menu.Item>
+  return names.map((name: string, index: number) => <Menu.Item key={index}>
     {({ active }) => (
       <a
         href="#"

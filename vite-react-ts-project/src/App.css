@@ -1,0 +1,35 @@
+.sider > div > div > button {
+  justify-content: space-between;
+}
+
+.sider > div {
+  margin: 0 0.5rem 1rem;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  gap: 5px;
+}
+
+.pagination .page-num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.pagination .page-num:hover {
+  background-color: rgb(31, 41, 55);
+  color: white;
+}
+
+.pagination .active {
+  background-color: rgb(31, 41, 55);
+  color: white;
+}
